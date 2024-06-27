@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 85px;
+}
+/* .container-header img{
+    width: 190px;
+    height: 159px;
+} */
+.nav-container ul{
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.container-header ul{
+    display: flex;
+    gap: 20px;
+}
+.container-header ul li{
+    list-style: none;
+    padding: 20px;
+}
+.container-header ul li a{
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #262626;
+}
+.container-header ul li button{
+    border: 0px;
+    border-radius: 40px;
+    width: 143.81px;
+    height: 35.95px;
+    left: 1098px;
+    background: #4CE0D7;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+}
+.container-header ul li img{
+    width: 47px;
+    height: 47px;
+    top: 37px;
+    left: 1309px;
+    
+}
+
+.first-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.first-section img{
+    width: 1272px;
+    height: 559px;
+    object-fit: cover;
+    border-radius: 20px;
+    align-content: center;
+}
+.first-section-title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 80px;
+    gap: 20px;
+    left: 141px;
+}
+.first-section-title h2{
+    font-family: Poppins;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 69px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.first-section-title p{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.23em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+
+
+}
+.first-section-title span{
+    font-family: Poppins;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 69px;
+    text-align: left;
+    background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
+    background-clip: text;
+    color: transparent;
+
+}
+.first-section-title h3{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #FFFFFF;
+    
+}
